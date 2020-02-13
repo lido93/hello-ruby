@@ -13,5 +13,12 @@
 
 # HINTS
 # Learn to read the documentation!
-# http://ruby-doc.org/core-2.5.1/Array.html
+# 
+
+# puts "hello"
+
+My_List = ["eggs", "scallions", "wine"]
+Janus_List = ["eggs","hummus","hash browns"]
+Our_list = My_List + Janus_List
+puts Our_list.sort.uniq
 

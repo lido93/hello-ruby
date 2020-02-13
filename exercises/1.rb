@@ -21,3 +21,11 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+puts "Die 1"
+Die_1 = rand (1..6)
+puts Die_1
+puts "Die 2"
+Die_2 = rand (1..6)
+puts Die_2
+puts "Total"
+puts Die_2+Die_1
