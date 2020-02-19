@@ -12,13 +12,13 @@ my_profile = {
     location: {
         city: "Evanston", 
         state: "Illinois"
-        }
+        },
     timeline: [
     {status: "eating", time:"morning"},
     {status: "sleeping", time:"night"},
     {status: "working", time:"evening"}
-]
-    }
+    ]
+}
 
 
         # puts my_profile [:location] [:city]
@@ -27,4 +27,4 @@ my_profile = {
 # my_profile [:name] = {first: "Lisa", last: "Dong"}
 
 # puts my_profile
-puts my_profile [:timeline]
+puts my_profile [:timeline][0]
